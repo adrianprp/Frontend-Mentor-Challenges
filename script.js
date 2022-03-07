@@ -2,7 +2,8 @@ const challenges = [
     'advice-generator-app-main',
     'base-apparel-coming-soon-master',
     'four-card-feature-section-master',
-    'fylo-landing-page'
+    'fylo-landing-page',
+    'huddle-landing-page'
 ];
 
 const challengesList = document.getElementById("challengesList");
