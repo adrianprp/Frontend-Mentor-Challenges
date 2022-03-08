@@ -7,7 +7,8 @@ const challenges = [
     'rock-paper-scissors',
     'single-price-grid-component',
     'ping-coming-soon-page',
-    'nft-preview-card-component'
+    'nft-preview-card-component',
+    'intro-component-with-signup-form'
 ];
 
 const challengesList = document.getElementById("challengesList");
