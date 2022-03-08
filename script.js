@@ -4,7 +4,8 @@ const challenges = [
     'four-card-feature-section-master',
     'fylo-landing-page',
     'huddle-landing-page',
-    'rock-paper-scissors'
+    'rock-paper-scissors',
+    'single-price-grid-component'
 ];
 
 const challengesList = document.getElementById("challengesList");
