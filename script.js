@@ -3,7 +3,8 @@ const challenges = [
     'base-apparel-coming-soon-master',
     'four-card-feature-section-master',
     'fylo-landing-page',
-    'huddle-landing-page'
+    'huddle-landing-page',
+    'rock-paper-scissors'
 ];
 
 const challengesList = document.getElementById("challengesList");
