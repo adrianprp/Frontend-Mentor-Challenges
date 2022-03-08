@@ -6,7 +6,8 @@ const challenges = [
     'huddle-landing-page',
     'rock-paper-scissors',
     'single-price-grid-component',
-    'ping-coming-soon-page'
+    'ping-coming-soon-page',
+    'nft-preview-card-component'
 ];
 
 const challengesList = document.getElementById("challengesList");
