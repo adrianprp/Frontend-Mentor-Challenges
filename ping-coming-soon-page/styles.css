@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+main{
+  max-width: 650px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom:  10px;
+}
+h1 span{
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+h3{
+  font-weight: 300;
+}
+
+form{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+  text-align: left;
+}
+.form-left{
+  flex:0.8;
+}
+input{
+  border: 1px solid  hsl(223, 100%, 88%);
+  border-radius: 50px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  padding :15px 25px;
+  margin-bottom: 15px;
+  width: 425px;
+  width: 100%;
+}
+
+
+input::placeholder{
+  color:hsl(223, 100%, 88%);
+}
+
+input.error{
+  border-color: :hsl(354, 100%, 66%);
+}
+
+button{
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding :15px 50px;
+  margin-left: 10px;
+  flex: 0.2;
+}
+
+button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+form small{
+  color:hsl(354, 100%, 66%);
+  display: none;
+  font-style:italic;
+  font-weight: 600;
+  margin: 0 20px ;
+}
+.illustration{
+  max-width: 100%;
+  margin: 60px 0;
+}
+
+.social-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.social-list li{
+  margin: 10px;
+}
+.social-list li a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 50%;
+  color:hsl(223, 87%, 63%);
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.social-list li a:hover{
+  background-color: hsl(223, 87%, 63%);
+  border-color:hsl(223, 87%, 63%);
+  color: #fff;
+}
+
+footer p{
+  color:hsl(0, 0%, 59%);
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 13px;
+    margin-bottom: 35px;
+  }
+  .logo{
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  form{
+    flex-direction: column;
+    margin: 0 40px;
+  }
+  form small{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .form-left{
+    width: 100%;
+  }
+
+  button{
+    width: 100%;
+    margin-left: 0;
+  }
+  .social-list li a{
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+}

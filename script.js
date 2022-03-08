@@ -5,7 +5,8 @@ const challenges = [
     'fylo-landing-page',
     'huddle-landing-page',
     'rock-paper-scissors',
-    'single-price-grid-component'
+    'single-price-grid-component',
+    'ping-coming-soon-page'
 ];
 
 const challengesList = document.getElementById("challengesList");
