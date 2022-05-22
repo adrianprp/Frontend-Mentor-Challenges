@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <section class="container">
+      <!-- Rating state start -->
+
+      <img class="star-icon" src="images/icon-star.svg" alt="icon-star" />
+
+      <h2>How did we do?</h2>
+
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <div class="container-rating">
+        <button id="1" class="rating_digit">1</button>
+        <button id="2" class="rating_digit">2</button>
+        <button id="3" class="rating_digit">3</button>
+        <button id="4" class="rating_digit">4</button>
+        <button id="5" class="rating_digit">5</button>
+      </div>
+
+      <button class="submit-button">Submit</button>
+      <!-- Rating state end -->
+    </section>
+
+    <section class="container center hide">
+      <!-- Thank you state start -->
+      <img
+        class="thank-you-image"
+        src="images/illustration-thank-you.svg"
+        alt="thank-you-illustration"
+      />
+      <p class="rating-text">
+        You selected <span class="selected">4</span> out of 5
+      </p>
+
+      <!-- Add rating here -->
+      <h2>Thank you!</h2>
+      <p class="thank-you-text">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+      <!-- Thank you state end -->
+    </section>
+  </body>
+</html>
