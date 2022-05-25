@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  --SoftRed: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+  --Dark-Brown: hsl(25, 47%, 15%);
+  --Medium-Brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very-Pale-Orange: hsl(33, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--Cream);
+  height: 100vh;
+  padding: 2rem;
+}
+/* MAIN */
+
+main {
+  margin: 10rem auto;
+  max-width: 27rem;
+}
+p {
+  color: var(--Dark-Brown);
+  font-weight: 700;
+}
+
+.logo {
+  height: 2.5rem;
+}
+
+/* BALANCE */
+.balance-container {
+  border-radius: 0.75rem;
+  background-color: var(--SoftRed);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  color: white;
+}
+.balance-label {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+/* SPENDING */
+
+.spending-container {
+  border-radius: 0.75rem;
+  background-color: var(--Very-Pale-Orange);
+  padding: 1.7rem;
+  margin-top: 1rem;
+}
+.spending-title {
+  color: var(--Dark-Brown);
+}
+.graph-container {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 14rem;
+}
+.graph-days {
+  display: flex;
+  justify-content: space-between;
+}
+.graph-days p {
+  color: var(--Medium-Brown);
+  font-weight: 400;
+  text-align: center;
+  width: 2.5rem;
+  margin-top: 0.5rem;
+}
+.graph-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.column {
+  border-radius: 0.35rem;
+  width: 2.5rem;
+}
+.column--hover {
+  cursor: pointer;
+}
+.column--label {
+  border-radius: 0.25rem;
+  background-color: var(--Dark-Brown);
+  color: white;
+  letter-spacing: -1px;
+  position: relative;
+  bottom: 2rem;
+  right: 0.55rem;
+  padding: 3px 7px;
+  visibility: hidden;
+  width: 3.7rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+  border: 2px solid var(--Cream);
+  border-top: none;
+}
+.spending-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spending-bottom-container small {
+  color: var(--Medium-Brown);
+}
+.spending-label {
+  font-size: 2rem;
+}

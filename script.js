@@ -1,14 +1,16 @@
 const challenges = [
-  ["advice-generator-app-main", "HTML CSS JS API"],
-  ["base-apparel-coming-soon-master", "HTML CSS JS"],
-  ["four-card-feature-section-master", "HTML CSS"],
-  ["fylo-landing-page", "HTML CSS"],
-  ["huddle-landing-page", "HTML CSS"],
   ["rock-paper-scissors", "HTML CSS JS"],
-  ["single-price-grid-component", "HTML CSS"],
-  ["ping-coming-soon-page", "HTML CSS JS"],
-  ["nft-preview-card-component", "HTML CSS"],
+  ["advice-generator-app-main", "HTML CSS JS API"],
+  ["expenses-chart-component", "HTML CSS JS"],
+  ["interactive-rating-component", "HTML CSS JS"],
+  ["fylo-landing-page", "HTML CSS"],
   ["intro-component-with-signup-form", "HTML CSS JS"],
+  ["huddle-landing-page", "HTML CSS"],
+  ["ping-coming-soon-page", "HTML CSS JS"],
+  ["base-apparel-coming-soon-master", "HTML CSS JS"],
+  ["single-price-grid-component", "HTML CSS"],
+  ["nft-preview-card-component", "HTML CSS"],
+  ["four-card-feature-section-master", "HTML CSS"],
 ];
 
 const challengesList = document.getElementById("challengesList");
