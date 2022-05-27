@@ -2,6 +2,7 @@ const challenges = [
   ["rock-paper-scissors", "HTML CSS JS"],
   ["advice-generator-app-main", "HTML CSS JS API"],
   ["expenses-chart-component", "HTML CSS JS"],
+  ["interactive-pricing-component", "HTML CSS JS"],
   ["interactive-rating-component", "HTML CSS JS"],
   ["fylo-landing-page", "HTML CSS"],
   ["intro-component-with-signup-form", "HTML CSS JS"],

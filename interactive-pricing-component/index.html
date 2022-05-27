@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+
+    <title>Interactive pricing component</title>
+  </head>
+  <body>
+    <main>
+      <div class="hero--container">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+        <img
+          class="hero--pattern"
+          src="images/pattern-circles.svg"
+          alt="pattern-image"
+        />
+      </div>
+      <div class="pricing--container">
+        <div class="pricing--label--container">
+          <span class="pageviews--label">10k Pageviews </span>
+          <p><span class="pricing--label">$8.00</span> /month</p>
+        </div>
+        <input id="slider" type="range" value="1" min="1" max="5" step="1" />
+
+        <div class="billing-container">
+          <p>Monthly Billing</p>
+          <input class="billing--toggle" id="checkbox" type="checkbox" />
+          <label for="checkbox"></label>
+          <p>Yearly Billing</p>
+          <span class="billing--discount"> 25% discount </span>
+          <span class="billing--discount billing--discount-mobile"> -25% </span>
+        </div>
+        <hr />
+
+        <div class="bottom--container">
+          <div class="check-icons">
+            <img
+              class="check--icon"
+              src="images/icon-check.svg"
+              alt="check-icon"
+            />
+            <img
+              class="check--icon"
+              src="images/icon-check.svg"
+              alt="check-icon"
+            />
+            <img
+              class="check--icon"
+              src="images/icon-check.svg"
+              alt="check-icon"
+            />
+          </div>
+          <div class="flex">
+            <p>Unlimited websites</p>
+            <p>100% data ownership</p>
+            <p>Email reports</p>
+          </div>
+
+          <button class="btn">Start my trial</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
